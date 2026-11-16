@@ -1,0 +1,7 @@
+id = "shekai"
+name = "Shekai"
+version = "0.1.0"
+schema_version = 1
+authors = ["yosskavo <yosskavo@proton.me>"]
+description = "A deep marine, restrained night theme for Zed ported from shekai.nvim"
+repository = "https://github.com/yosskavo/shekai.zed"

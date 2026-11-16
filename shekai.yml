@@ -1,0 +1,364 @@
+$schema: "https://zed.dev/schema/themes/v0.2.0.json"
+name: "Shekai"
+author: "Shekai"
+themes:
+  - name: "Shekai"
+    appearance: "dark"
+    style:
+      border: "#6c82c780"
+      border.variant: "#1a1f33ff"
+      border.focused: "#6c82c7ff"
+      border.selected: "#82aaffff"
+      border.transparent: "#00000000"
+      border.disabled: "#3f466380"
+      elevated_surface.background: "#131625ff"
+      surface.background: "#0f111aff"
+      background: "#0b0d14ff"
+      element.background: "#131625ff"
+      element.hover: "#1a1f33ff"
+      element.active: "#22284aff"
+      element.selected: "#22284aff"
+      element.disabled: "#13162580"
+      drop_target.background: "#6c82c733"
+      ghost_element.background: "#00000000"
+      ghost_element.hover: "#1a1f33cc"
+      ghost_element.active: "#22284aff"
+      ghost_element.selected: "#22284aff"
+      ghost_element.disabled: "#00000000"
+      text: "#c7cff2ff"
+      text.muted: "#8b93b3ff"
+      text.placeholder: "#6e7599ff"
+      text.disabled: "#3f4663ff"
+      text.accent: "#65bcffff"
+      icon: "#c7cff2ff"
+      icon.muted: "#8b93b3ff"
+      icon.disabled: "#3f4663ff"
+      icon.placeholder: "#6e7599ff"
+      icon.accent: "#65bcffff"
+      status_bar.background: "#0f111aff"
+      title_bar.background: "#0b0d14ff"
+      title_bar.inactive_background: "#0b0d14ff"
+      toolbar.background: "#0f111aff"
+      tab_bar.background: "#0b0d14ff"
+      tab.inactive_background: "#0b0d14ff"
+      tab.active_background: "#131625ff"
+      panel.background: "#0b0d14ff"
+      panel.focused_border: "#6c82c7ff"
+      pane.focused_border: "#6c82c7ff"
+      search.match_background: "#c99a8266"
+      search.active_match_background: "#b06a44cc"
+      scrollbar.thumb.background: "#6f789940"
+      scrollbar.thumb.hover_background: "#6c82c780"
+      scrollbar.thumb.border: "#00000000"
+      scrollbar.track.background: "#00000000"
+      scrollbar.track.border: "#00000000"
+      editor.foreground: "#c0c6e0ff"
+      editor.background: "#131625ff"
+      editor.gutter.background: "#131625ff"
+      editor.subheader.background: "#0f111aff"
+      editor.active_line.background: "#1a1f33cc"
+      editor.highlighted_line.background: "#1a1f33ff"
+      editor.line_number: "#e0b68aff"
+      editor.active_line_number: "#65bcffff"
+      editor.hover_line_number: "#bcd6ffff"
+      editor.invisible: "#3f4663ff"
+      editor.wrap_guide: "#6f789920"
+      editor.active_wrap_guide: "#6c82c740"
+      editor.document_highlight.read_background: "#5fa8c926"
+      editor.document_highlight.write_background: "#6c82c733"
+      terminal.background: "#131625ff"
+      terminal.foreground: "#c7cff2ff"
+      terminal.bright_foreground: "#d7defaff"
+      terminal.dim_foreground: "#6e7599ff"
+      terminal.ansi.black: "#0f111aff"
+      terminal.ansi.bright_black: "#3f4663ff"
+      terminal.ansi.dim_black: "#0b0d14ff"
+      terminal.ansi.red: "#e06c75ff"
+      terminal.ansi.bright_red: "#e7949eff"
+      terminal.ansi.dim_red: "#b84a4aff"
+      terminal.ansi.green: "#6fa67aff"
+      terminal.ansi.bright_green: "#8fb573ff"
+      terminal.ansi.dim_green: "#1f6b5aff"
+      terminal.ansi.yellow: "#b79a6aff"
+      terminal.ansi.bright_yellow: "#f0d18cff"
+      terminal.ansi.dim_yellow: "#65422eff"
+      terminal.ansi.blue: "#6c82c7ff"
+      terminal.ansi.bright_blue: "#82aaffff"
+      terminal.ansi.dim_blue: "#102a43ff"
+      terminal.ansi.magenta: "#9d8bd6ff"
+      terminal.ansi.bright_magenta: "#bfa6f0ff"
+      terminal.ansi.dim_magenta: "#6b5a99ff"
+      terminal.ansi.cyan: "#5fa8c9ff"
+      terminal.ansi.bright_cyan: "#86e1fcff"
+      terminal.ansi.dim_cyan: "#1f7f8aff"
+      terminal.ansi.white: "#c7cff2ff"
+      terminal.ansi.bright_white: "#d7defaff"
+      terminal.ansi.dim_white: "#8b93b3ff"
+      link_text.hover: "#7da7d9ff"
+      version_control.added: "#6fa67aff"
+      version_control.modified: "#ff9e64ff"
+      version_control.deleted: "#e06c75ff"
+      version_control.word_added: "#1f3d34cc"
+      version_control.word_deleted: "#3b0a0acc"
+      version_control.conflict_marker.ours: "#1f3d3466"
+      version_control.conflict_marker.theirs: "#102a4366"
+      conflict: "#b84a4aff"
+      conflict.background: "#3b0a0a66"
+      conflict.border: "#b84a4a80"
+      created: "#6fa67aff"
+      created.background: "#1f3d344d"
+      created.border: "#6fa67a80"
+      deleted: "#e06c75ff"
+      deleted.background: "#3b0a0a66"
+      deleted.border: "#e06c7580"
+      error: "#e06c75ff"
+      error.background: "#3b0a0a66"
+      error.border: "#e06c7580"
+      hidden: "#6e7599ff"
+      hidden.background: "#0b0d1466"
+      hidden.border: "#3f466380"
+      hint: "#8fd4a0ff"
+      hint.background: "#163a3f4d"
+      hint.border: "#8fd4a080"
+      ignored: "#6e7599ff"
+      ignored.background: "#0b0d144d"
+      ignored.border: "#3f466380"
+      info: "#8fc3f2ff"
+      info.background: "#102a434d"
+      info.border: "#8fc3f280"
+      modified: "#ff9e64ff"
+      modified.background: "#163a3f66"
+      modified.border: "#ff9e6480"
+      predictive: "#6e7599ff"
+      predictive.background: "#1a1f334d"
+      predictive.border: "#3f466380"
+      renamed: "#8e7cc9ff"
+      renamed.background: "#1a1f334d"
+      renamed.border: "#8e7cc980"
+      success: "#6fa67aff"
+      success.background: "#1f3d344d"
+      success.border: "#6fa67a80"
+      unreachable: "#6e7599ff"
+      unreachable.background: "#1a1f334d"
+      unreachable.border: "#3f466380"
+      warning: "#f0d18cff"
+      warning.background: "#24240566"
+      warning.border: "#f0d18c80"
+      players:
+        - cursor: "#22284aff"
+          background: "#65bcffff"
+          selection: "#8e7cc955"
+        - cursor: "#ff9e64ff"
+          background: "#ff9e64ff"
+          selection: "#ff9e643d"
+        - cursor: "#65bcffff"
+          background: "#65bcffff"
+          selection: "#65bcff3d"
+        - cursor: "#bfa6f0ff"
+          background: "#bfa6f0ff"
+          selection: "#bfa6f03d"
+        - cursor: "#6fa67aff"
+          background: "#6fa67aff"
+          selection: "#6fa67a3d"
+        - cursor: "#e06c75ff"
+          background: "#e06c75ff"
+          selection: "#e06c753d"
+        - cursor: "#b79a6aff"
+          background: "#b79a6aff"
+          selection: "#b79a6a3d"
+        - cursor: "#5fa8c9ff"
+          background: "#5fa8c9ff"
+          selection: "#5fa8c93d"
+      syntax:
+        attribute:
+          color: "#e0af68ff"
+          font_style: "italic"
+          font_weight: null
+        boolean:
+          color: "#e06c75ff"
+          font_style: null
+          font_weight: null
+        comment:
+          color: "#6e7599ff"
+          font_style: "italic"
+          font_weight: null
+        comment.doc:
+          color: "#2a4b5eff"
+          font_style: "italic"
+          font_weight: null
+        constant:
+          color: "#dcb09aff"
+          font_style: null
+          font_weight: null
+        constructor:
+          color: "#6bb3d6ff"
+          font_style: null
+          font_weight: null
+        embedded:
+          color: "#c7cff2ff"
+          font_style: null
+          font_weight: null
+        emphasis:
+          color: "#7da7d9ff"
+          font_style: "italic"
+          font_weight: null
+        emphasis.strong:
+          color: "#d7defaff"
+          font_style: null
+          font_weight: 700
+        enum:
+          color: "#2b8fa3ff"
+          font_style: null
+          font_weight: 700
+        function:
+          color: "#65bcffff"
+          font_style: null
+          font_weight: null
+        function.method:
+          color: "#7da7d9ff"
+          font_style: null
+          font_weight: 700
+        hint:
+          color: "#8fd4a0ff"
+          font_style: null
+          font_weight: null
+        keyword:
+          color: "#bfa6f0ff"
+          font_style: "italic"
+          font_weight: 700
+        label:
+          color: "#bfa6f0ff"
+          font_style: null
+          font_weight: 700
+        link_text:
+          color: "#7da7d9ff"
+          font_style: "italic"
+          font_weight: null
+        link_uri:
+          color: "#5fa8c9ff"
+          font_style: null
+          font_weight: null
+        namespace:
+          color: "#82aaffff"
+          font_style: "italic"
+          font_weight: null
+        number:
+          color: "#ff9e64ff"
+          font_style: null
+          font_weight: 700
+        operator:
+          color: "#a4b5f2ff"
+          font_style: null
+          font_weight: null
+        predictive:
+          color: "#6e7599ff"
+          font_style: "italic"
+          font_weight: null
+        preproc:
+          color: "#6fc2c8ff"
+          font_style: null
+          font_weight: 700
+        primary:
+          color: "#c0c6e0ff"
+          font_style: null
+          font_weight: null
+        property:
+          color: "#5fa8c9ff"
+          font_style: null
+          font_weight: null
+        punctuation:
+          color: "#a9b4d4ff"
+          font_style: null
+          font_weight: null
+        punctuation.bracket:
+          color: "#f2cc96ff"
+          font_style: null
+          font_weight: null
+        punctuation.delimiter:
+          color: "#a9b4d4ff"
+          font_style: null
+          font_weight: null
+        punctuation.list_marker:
+          color: "#b79a6aff"
+          font_style: null
+          font_weight: null
+        punctuation.markup:
+          color: "#a9b4d4ff"
+          font_style: null
+          font_weight: null
+        punctuation.special:
+          color: "#f2cc96ff"
+          font_style: null
+          font_weight: null
+        selector:
+          color: "#82aaffff"
+          font_style: null
+          font_weight: null
+        selector.pseudo:
+          color: "#7d6bd1ff"
+          font_style: "italic"
+          font_weight: null
+        string:
+          color: "#b79a6aff"
+          font_style: null
+          font_weight: null
+        string.escape:
+          color: "#e0af68ff"
+          font_style: null
+          font_weight: 700
+        string.regex:
+          color: "#d88a5aff"
+          font_style: null
+          font_weight: null
+        string.special:
+          color: "#e0af68ff"
+          font_style: null
+          font_weight: 700
+        string.special.symbol:
+          color: "#d88a5aff"
+          font_style: null
+          font_weight: null
+        tag:
+          color: "#e06c75ff"
+          font_style: null
+          font_weight: 700
+        text.literal:
+          color: "#b79a6aff"
+          font_style: null
+          font_weight: null
+        title:
+          color: "#86e1fcff"
+          font_style: null
+          font_weight: 700
+        type:
+          color: "#6fa67aff"
+          font_style: "italic"
+          font_weight: null
+        type.builtin:
+          color: "#b3a5f2ff"
+          font_style: null
+          font_weight: null
+        variable:
+          color: "#8fc3f2ff"
+          font_style: null
+          font_weight: 700
+        variable.special:
+          color: "#82aaffff"
+          font_style: "italic"
+          font_weight: null
+        variable.parameter:
+          color: "#e7949eff"
+          font_style: null
+          font_weight: null
+        variant:
+          color: "#2b8fa3ff"
+          font_style: null
+          font_weight: 700
+        diff.plus:
+          color: "#6fa67aff"
+          font_style: null
+          font_weight: null
+        diff.minus:
+          color: "#e06c75ff"
+          font_style: null
+          font_weight: null
